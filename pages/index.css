@@ -1,0 +1,36 @@
+@import url(../vendor/normalize.css);
+
+@import url(../block/page/page.css);
+
+@import url(../block/header/header.css);
+@import url(../block/header/__logo/header__logo.css);
+
+@import url(../block/main/main.css);
+
+@import url(../block/resume/resume.css);
+@import url(../block/resume-info/resume-info.css);
+@import url(../block/resume-info/__images/resume-info__images.css);
+@import url(../block/resume-info/__photo/resume-info__photo.css);
+@import url(../block/resume-info/__union/resume-info__union.css);
+@import url(../block/resume-info/__about/resume-info__about.css);
+@import url(../block/resume-info/__biography/resume-info__biography.css);
+@import url(../block/resume-info/__title/resume-info__title.css);
+@import url(../block/resume-info/__subtitle/resume-info__subtitle.css);
+@import url(../block/resume-info/__contacts/resume-info__contacts.css);
+@import url(../block/resume-info/__contact/resume-info__contact.css);
+@import url(../block/resume-info/__text/resume-info__text.css);
+@import url(../block/resume-info/__education/resume-info__education.css);
+@import url(../block/resume-info/__container/resume-info__container.css);
+@import url(../block/resume-info/__container-name/resume-info__container-name.css);
+@import url(../block/resume-info/__places/resume-info__places.css);
+@import url(../block/resume-info/__place/resume-info__place.css);
+@import url(../block/resume-info/__place-title/resume-info__place-title.css);
+@import url(../block/resume-info/__place-subtitle/resume-info__place-subtitle.css);
+@import url(../block/resume-info/__skills/resume-info__skills.css);
+
+
+@import url(../block/footer/footer.css);
+
+* {
+    outline: 1px solid red;
+}
