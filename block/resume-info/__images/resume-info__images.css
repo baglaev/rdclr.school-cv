@@ -1,3 +1,4 @@
 .resume-info__images {
-    
+    grid-area: resume-info__images;
+    position: relative;
 }

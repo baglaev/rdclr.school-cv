@@ -1,3 +1,9 @@
 .resume-info__contact {
-    
+    color: var(--white, #FFF);
+    font-family: TT Commons;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.4px;
 }

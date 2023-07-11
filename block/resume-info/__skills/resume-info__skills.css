@@ -1,3 +1,6 @@
 .resume-info__skills {
-    
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    gap: 32px;
 }

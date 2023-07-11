@@ -1,3 +1,10 @@
 .resume-info__place-subtitle {
-    
+    color: var(--white, #FFF);
+    font-family: TT Commons;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+    opacity: .4;
 }

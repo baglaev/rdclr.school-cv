@@ -1,3 +1,9 @@
 .resume-info {
-    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "resume-info__images resume-info__text"
+    "resume-info__images resume-info__education"
+    "resume-info__about resume-info__education"
+    "resume-info__about resume-info__education";
 }
