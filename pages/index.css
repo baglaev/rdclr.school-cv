@@ -32,7 +32,3 @@
 @import url(../block/resume-info/__place-title/resume-info__place-title.css);
 @import url(../block/resume-info/__place-subtitle/resume-info__place-subtitle.css);
 @import url(../block/resume-info/__skills/resume-info__skills.css);
-
-* {
-    outline: 1px solid red;
-}
