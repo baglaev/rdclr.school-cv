@@ -1,3 +1,11 @@
 .resume-info__arrow-white {
-    
+    position: absolute;
+    top: -1px;
+    left: 57px;
+}
+
+@media screen and (max-width: 1410px) {
+    .resume-info__arrow-white {
+        left: 129px;
+    }
 }

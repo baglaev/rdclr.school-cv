@@ -1,3 +1,16 @@
 .resume-info__education {
-    grid-area: resume-info__education;
+    /* width: 1006px; */
+    width: 931px;
+    min-height: 493px;
+    padding: 47px 49px 47px 27px;
+
+    border: 1px solid #fff;
+    position: relative;
+}
+
+@media screen and (max-width: 1410px) {
+    .resume-info__education {
+        padding: 40px 15px 30px;
+        width: 289px;
+    }
 }

@@ -1,5 +1,4 @@
 .resume-info__text {
-    grid-area: resume-info__text;
     font-family: TT Commons;
     font-size: 18px;
     font-style: normal;
@@ -9,4 +8,18 @@
     color: var(--white, #FFF);
 
     width: 690px;
+    min-height: 144px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width: 1410px) {
+    .resume-info__text {
+        width: 320px;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.16px;
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
 }

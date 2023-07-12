@@ -1,3 +1,39 @@
 .resume-info__container {
+    display: flex;
+    column-gap: 72px;
+    width: 930px;
+}
+
+.resume-info__container:nth-child(2) {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.resume-info__container:nth-child(3) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.resume-info__container:last-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 1410px) {
+    .resume-info__container {
+        flex-direction: column;
+        width: 287px;
+    }
+    .resume-info__container:nth-child(2) {
+        padding-bottom: 24px;
+    }
     
+    .resume-info__container:nth-child(3) {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    
+    .resume-info__container:last-child {
+        padding-top: 24px;
+    }
 }

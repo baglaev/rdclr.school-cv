@@ -3,4 +3,12 @@
     display: flex;
     padding: 0;
     gap: 32px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1410px) {
+    .resume-info__skills {
+        gap: 16px;
+        flex-wrap: wrap;
+    }
 }

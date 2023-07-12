@@ -8,8 +8,8 @@
 
 @import url(../block/main/main.css);
 
-@import url(../block/resume/resume.css);
 @import url(../block/resume-info/resume-info.css);
+@import url(../block/resume-info/__container-about/resume-info__container-about.css);
 @import url(../block/resume-info/__images/resume-info__images.css);
 @import url(../block/resume-info/__photo/resume-info__photo.css);
 @import url(../block/resume-info/__union/resume-info__union.css);
@@ -20,6 +20,8 @@
 @import url(../block/resume-info/__subtitle/resume-info__subtitle.css);
 @import url(../block/resume-info/__contacts/resume-info__contacts.css);
 @import url(../block/resume-info/__contact/resume-info__contact.css);
+@import url(../block/resume-info/__logo-messenger/resume-info__logo-messenger.css);
+@import url(../block/resume-info/__container-education/resume-info__container-education.css);
 @import url(../block/resume-info/__text/resume-info__text.css);
 @import url(../block/resume-info/__education/resume-info__education.css);
 @import url(../block/resume-info/__container/resume-info__container.css);
@@ -30,9 +32,6 @@
 @import url(../block/resume-info/__place-title/resume-info__place-title.css);
 @import url(../block/resume-info/__place-subtitle/resume-info__place-subtitle.css);
 @import url(../block/resume-info/__skills/resume-info__skills.css);
-
-
-@import url(../block/footer/footer.css);
 
 * {
     outline: 1px solid red;

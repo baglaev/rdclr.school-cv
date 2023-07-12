@@ -3,3 +3,9 @@
     height: 355px;
     object-fit: cover;
 }
+
+@media screen and (max-width: 1410px) {
+    .resume-info__photo {
+        width: 320px;
+    }
+}

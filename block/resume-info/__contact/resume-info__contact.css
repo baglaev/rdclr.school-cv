@@ -6,4 +6,15 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.4px;
+    display: flex;
+    column-gap: 16px;
+}
+
+@media screen and (max-width: 1410px) {
+    .resume-info__contact {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.32px;
+        column-gap: 20px;
+    }
 }

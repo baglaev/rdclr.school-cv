@@ -1,9 +1,12 @@
 .resume-info {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-    "resume-info__images resume-info__text"
-    "resume-info__images resume-info__education"
-    "resume-info__about resume-info__education"
-    "resume-info__about resume-info__education";
+    display: flex;
+    gap: 31px;
+}
+
+@media screen and (max-width: 1410px) {
+    .resume-info {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
 }
